@@ -10,7 +10,7 @@ composer require cmaxhm/url-string-extractor
 
 ## Usage
 
-This works delimiting the string that you want to extract from an URL source code. Usefull when there is another coincidence of your search before the string you want to extract.
+This works delimiting the string that you want to extract from an URL source code. Useful when there is another coincidence of your search before the string you want to extract.
 
 ```php
 use Cmaxhm\UrlStringExtractor\UrlStringExtractor;
