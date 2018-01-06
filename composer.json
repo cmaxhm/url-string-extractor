@@ -1,0 +1,17 @@
+{
+    "name": "cmaxhm/url-string-extractor",
+    "description": "Extract the string from an url source code matching your query.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Castillo",
+            "email": "cmaxhm@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cmaxhm\\UrlStringExtractor\\": "src/"
+        }
+    },
+    "require": {}
+}
