@@ -2,6 +2,7 @@
     "name": "cmaxhm/url-string-extractor",
     "description": "Extract the string from an url source code matching your query.",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Carlos Castillo",
