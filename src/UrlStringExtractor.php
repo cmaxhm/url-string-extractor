@@ -13,12 +13,12 @@ class UrlStringExtractor {
     static function getString($url = null, $startReference = null, $endReference = null) {
         if ($url === null || $startReference === null || $endReference === null) { return false; }
         
-        $urlContent    = file_get_contents($url);
-        $offset        = strlen($startReference);
+        $urlContent = file_get_contents($url);
+        $offset = strlen($startReference);
         $startPosition = strpos($urlContent, $startReference) + $offset;
-        $endPosition   = strpos($urlContent, $endReference, $startPosition) - $startPosition;
-        $result        = substr($urlContent, $startPosition, $endPosition);
-        $result        = trim($result);
+        $endPosition = strpos($urlContent, $endReference, $startPosition) - $startPosition;
+        $result = substr($urlContent, $startPosition, $endPosition);
+        $result = trim($result);
         
         return $result;
     }
