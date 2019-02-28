@@ -8,7 +8,7 @@ class UrlStringExtractor {
      * @param string $startReference The string that acts as starting point to delimit the extracted string
      * @param string $endReference The string that acts as ending point to delimit the extracted string
      *
-     * @return bool
+     * @return string The extracted string
      */
     static function getString($url = null, $startReference = null, $endReference = null) {
         if ($url === null || $startReference === null || $endReference === null) { return false; }
